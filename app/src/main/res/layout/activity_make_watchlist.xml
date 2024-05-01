@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MakeWatchlistActivity">
+
+    <data>
+        <variable
+            name="myMakeWatchlistViewModel"
+            type="com.example.eslamshahr.viewModel.MakeWatchlistViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#141219">
+
+
+        <EditText
+            android:id="@+id/watchlist_name"
+            android:layout_width="277dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_style5"
+            android:ems="10"
+            android:hint="  Watchlist name...."
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/create_watchlist"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_style6"
+            android:text="Create"
+            android:textColor="#FFC107"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/watchlist_name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/watch_select_recyclerView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/watchlist_name"
+            tools:itemCount="200"
+            tools:listitem="200"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+

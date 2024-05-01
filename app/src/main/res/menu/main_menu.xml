@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icon_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/icon_group"
+        android:icon="@drawable/ic_baseline_groups_24"
+        android:title="Artists" />
+    <item
+        android:id="@+id/icon_movies"
+        android:icon="@drawable/ic_baseline_local_movies_24"
+        android:title="Movies" />
+    <item
+        android:id="@+id/icon_filter"
+        android:icon="@drawable/ic_baseline_display_settings_24"
+        android:title="Filters" />
+    <item
+        android:id="@+id/icon_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile" />
+
+</menu>

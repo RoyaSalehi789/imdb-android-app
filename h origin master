@@ -1,0 +1,89 @@
+[33mcommit e9b22c482b2475aa129259ce19330923610ee59b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: nima <nimaeslami206@gmail.com>
+Date:   Sun Dec 18 18:12:59 2022 +0330
+
+    start filter
+
+[33mcommit 9e9340c3e5a8b92d1a5db4e6a7bf427724db0ab8[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: nima <nimaeslami206@gmail.com>
+Date:   Sun Dec 18 11:07:07 2022 +0330
+
+    movie geners done!
+
+[33mcommit ba3d6c8f2baee5af2a37c98415d52dab4324177b[m
+Author: nima <nimaeslami206@gmail.com>
+Date:   Sun Dec 18 01:36:44 2022 +0330
+
+    horror genre
+
+[33mcommit a44ef70ca59de0890c3468a8b80b6170a6cd9674[m
+Author: nima <nimaeslami206@gmail.com>
+Date:   Sat Dec 17 19:03:48 2022 +0330
+
+    cast
+
+[33mcommit 85d20d495361bce9f9b4508b457395ac6ef41135[m
+Author: nima <nimaeslami206@gmail.com>
+Date:   Sat Dec 17 19:01:47 2022 +0330
+
+    cast
+
+[33mcommit 54b3c42f4f1eac98df70c54f56ebc28cfcd6a6bf[m
+Author: nima <nimaeslami206@gmail.com>
+Date:   Thu Dec 15 10:31:24 2022 +0330
+
+    fragments management
+
+[33mcommit 6eaafa447b30e383f63226e4de7ca07c0c8d6745[m
+Author: roya <roya.salehi789@gmail.com>
+Date:   Sun Dec 11 15:58:53 2022 +0330
+
+    show movie details done!
+
+[33mcommit 8502ba549b651a0db9ffa0caeaa03cd22e524ecb[m
+Merge: 7130e18 1db1338
+Author: roya <roya.salehi789@gmail.com>
+Date:   Sun Dec 11 09:57:23 2022 +0330
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       app/src/main/java/com/example/eslamshahr/Api.kt
+    #       app/src/main/java/com/example/eslamshahr/MoviesRepository.kt
+    #       app/src/main/res/layout/activity_main.xml
+
+[33mcommit 7130e1874fa0f245673184eebca6ce182872b06d[m
+Author: roya <roya.salehi789@gmail.com>
+Date:   Sun Dec 11 09:34:05 2022 +0330
+
+    top rated and upcoming done!
+
+[33mcommit ea36379f1ef845ea0df1c84a5c36841ed2e53e43[m
+Author: roya <roya.salehi789@gmail.com>
+Date:   Sun Dec 11 09:27:24 2022 +0330
+
+    top rated and upcoming done!
+
+[33mcommit 1db1338c93611b159e5e56cf6a44008b4fd79b1d[m
+Author: roya <roya.salehi789@gmail.com>
+Date:   Wed Dec 7 17:12:18 2022 +0330
+
+    commit 2
+
+[33mcommit a59efe9fad9899239a710b430704c2d7528c761c[m
+Author: roya <roya.salehi789@gmail.com>
+Date:   Wed Dec 7 15:45:54 2022 +0330
+
+    more movies
+
+[33mcommit cfe109dd9f9ce3964af7934210d9bf43a4495459[m
+Author: roya <roya.salehi789@gmail.com>
+Date:   Tue Dec 6 21:38:37 2022 +0330
+
+    popularMovieList api done
+
+[33mcommit 1add79a4cb6979407cd7f9a65af78871a974abf0[m
+Author: roya <roya.salehi789@gmail.com>
+Date:   Tue Dec 6 21:28:04 2022 +0330
+
+    popularMovieList api done!
